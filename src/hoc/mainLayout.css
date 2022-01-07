@@ -17,10 +17,29 @@
     height: 300px;
     width: 200px;
     border-radius: 10px;
+    justify-content: center;
+    padding-top: 20px;
 }
 .children{
     background-color: #F4F2EF;
     margin-left: 5px;
     width: 100%;
     border-radius: 10px;
+}
+.topNav{
+    width: 100%;
+    height: 50px;
+    display: none;
+}
+
+@media only screen and (max-width: 600px ) {
+    .leftBar{
+        display: none;
+    }
+    .topNav{
+        display: contents;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

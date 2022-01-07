@@ -1,7 +1,7 @@
 import { Switch, Route } from "react-router";
 import MainLayout from "./MainLayout";
 import Home from "../components/Pages/home";
-import About from "../components/Pages/about";
+import Pizza from "../components/Pages/pizza";
 
  
 export default function Routes() {
@@ -14,9 +14,9 @@ export default function Routes() {
             </MainLayout>
           </Route>
 
-          <Route path='/about' exact >
+          <Route path='/pizza' exact >
             <MainLayout>
-              <Route component={About} />
+              <Route component={Pizza} />
             </MainLayout>
           </Route>
 
