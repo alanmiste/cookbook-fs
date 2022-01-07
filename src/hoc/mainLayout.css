@@ -1,0 +1,26 @@
+.mainLayout{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+    border: blue 1px solid;
+}
+.mlBody{
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+.leftBar{
+    background-color: #F5F3F0;
+    display: flex;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+}
+.children{
+    background-color: #F4F2EF;
+    margin-left: 5px;
+    width: 100%;
+    border-radius: 10px;
+}

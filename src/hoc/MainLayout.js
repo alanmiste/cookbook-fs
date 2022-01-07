@@ -1,15 +1,16 @@
 import React from 'react'
 import Header from '../components/Header/header'
+import './mainLayout.css'
 
 
 export default function MainLayout(props) {
-    return <div>
+    return <div className='mainLayout'>
         <Header />
-        <div style={{display: 'flex'}}>
-            <div style={{height: '400px', backgroundColor: 'red'}}>
-                Left column
+        <div className='mlBody'>
+            <div className='leftBar'>
+                Left Bar
             </div>
-            <div>
+            <div className='children'>
                 {
                     props.children
                 }
